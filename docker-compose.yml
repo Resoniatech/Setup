@@ -1,0 +1,6 @@
+services:
+  db_test_try:
+    image: ${DOCKER_REGISTRY-}dbtesttry
+    build:
+      context: .
+      dockerfile: db_test_try/Dockerfile
