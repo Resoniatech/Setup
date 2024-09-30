@@ -6,9 +6,36 @@ services:
     build:
       context: .
       dockerfile: db_test_try/Dockerfile
+    environment:
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/app/.aspnet/https/project.pfx
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=st923420
+      - TZ=Asia/Taipei
+    volumes:
+      - ./project/wwwroot:/app/wwwroot
+      - ./project.pfx:/app/.aspnet/https/project.pfx:ro
+      - ./logs:/app/Logs 
     networks:
       - webnet
-
+  nginx:
+      image: ${DOCKER_REGISTRY-}nginxproject
+    build:
+      context: .
+      dockerfile: nginx/Dockerfile
+    ports:
+      - "80:80"   
+      - "443:443" 
+    volumes:
+      - ./dist:/usr/share/nginx/html
+      - ./project/wwwroot:/usr/share/nginx/html/wwwroot
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/ssl:/etc/nginx/ssl:ro
+      - ./nginx/logs:/var/log/nginx
+    depends_on:
+      - project
+    environment:
+      TZ: "Asia/Taipei"
+    networks:
+      - webnet
 
 
 networks:
