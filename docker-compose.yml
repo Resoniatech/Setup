@@ -11,7 +11,6 @@ services:
       - ASPNETCORE_Kestrel__Certificates__Default__Password=st923420
       - TZ=Asia/Taipei
     volumes:
-      - ./project/wwwroot:/app/wwwroot
       - ./logs:/app/Logs  
     networks:
       - webnet
