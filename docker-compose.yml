@@ -15,6 +15,7 @@ services:
       - ./logs:/app/Logs 
     networks:
       - webnet
+      
   nginx:
       image: ${DOCKER_REGISTRY-}nginxproject
     build:
