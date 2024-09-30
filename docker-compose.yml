@@ -1,5 +1,5 @@
 services:
-  project:
+  db_test_try:
     user: root
     image: ${DOCKER_REGISTRY-}dbtesttry
     build:
@@ -17,7 +17,7 @@ services:
       - webnet
       
   nginx:
-      image: ${DOCKER_REGISTRY-}nginxproject
+    image: ${DOCKER_REGISTRY-}nginxproject
     build:
       context: .
       dockerfile: nginx/Dockerfile
