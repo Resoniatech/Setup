@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\wschen\\Source\\Repos\\db_test_try\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D0C0611C-86E5-4477-A842-9A92599E0F02}|db_test_try\\db_test_try.csproj|c:\\users\\wschen\\source\\repos\\db_test_try\\db_test_try\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D0C0611C-86E5-4477-A842-9A92599E0F02}|db_test_try\\db_test_try.csproj|solutionrelative:db_test_try\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F9869635-EF54-44D7-98C8-2440563CDA95}|docker-compose.dcproj|c:\\users\\wschen\\source\\repos\\db_test_try\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{F9869635-EF54-44D7-98C8-2440563CDA95}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -12,18 +16,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F9869635-EF54-44D7-98C8-2440563CDA95}|docker-compose.dcproj|c:\\users\\wschen\\source\\repos\\db_test_try\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{F9869635-EF54-44D7-98C8-2440563CDA95}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C0611C-86E5-4477-A842-9A92599E0F02}|db_test_try\\db_test_try.csproj|c:\\users\\wschen\\source\\repos\\db_test_try\\db_test_try\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D0C0611C-86E5-4477-A842-9A92599E0F02}|db_test_try\\db_test_try.csproj|solutionrelative:db_test_try\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C0611C-86E5-4477-A842-9A92599E0F02}|db_test_try\\db_test_try.csproj|c:\\users\\wschen\\source\\repos\\db_test_try\\db_test_try\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C0611C-86E5-4477-A842-9A92599E0F02}|db_test_try\\db_test_try.csproj|solutionrelative:db_test_try\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C0611C-86E5-4477-A842-9A92599E0F02}|db_test_try\\db_test_try.csproj|c:\\users\\wschen\\source\\repos\\db_test_try\\db_test_try\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D0C0611C-86E5-4477-A842-9A92599E0F02}|db_test_try\\db_test_try.csproj|solutionrelative:db_test_try\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0C0611C-86E5-4477-A842-9A92599E0F02}|db_test_try\\db_test_try.csproj|c:\\users\\wschen\\source\\repos\\db_test_try\\db_test_try\\trytestcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,19 +41,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "docker-compose.dcproj",
-              "DocumentMoniker": "C:\\Users\\wschen\\Source\\Repos\\db_test_try\\docker-compose.dcproj",
-              "RelativeDocumentMoniker": "docker-compose.dcproj",
-              "ToolTip": "C:\\Users\\wschen\\Source\\Repos\\db_test_try\\docker-compose.dcproj",
-              "RelativeToolTip": "docker-compose.dcproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-27T08:32:10.658Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\Users\\wschen\\Source\\Repos\\db_test_try\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
@@ -74,7 +54,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\wschen\\Source\\Repos\\db_test_try\\db_test_try\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "db_test_try\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\wschen\\Source\\Repos\\db_test_try\\db_test_try\\Properties\\launchSettings.json",
+              "RelativeToolTip": "db_test_try\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-27T05:07:16.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TryTestContext.cs",
+              "DocumentMoniker": "C:\\Users\\wschen\\Source\\Repos\\db_test_try\\db_test_try\\TryTestContext.cs",
+              "RelativeDocumentMoniker": "db_test_try\\TryTestContext.cs",
+              "ToolTip": "C:\\Users\\wschen\\Source\\Repos\\db_test_try\\db_test_try\\TryTestContext.cs",
+              "RelativeToolTip": "db_test_try\\TryTestContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T02:40:45.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Microsoft.VisualStudio.Docker.Compose.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
@@ -87,42 +92,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\wschen\\Source\\Repos\\db_test_try\\db_test_try\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "db_test_try\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\wschen\\Source\\Repos\\db_test_try\\db_test_try\\Properties\\launchSettings.json",
-              "RelativeToolTip": "db_test_try\\Properties\\launchSettings.json",
-              "ViewState": "AgIAACUAAAAAAAAAAAAAACYAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-27T05:07:16.376Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TryTestContext.cs",
-              "DocumentMoniker": "C:\\Users\\wschen\\Source\\Repos\\db_test_try\\db_test_try\\TryTestContext.cs",
-              "RelativeDocumentMoniker": "db_test_try\\TryTestContext.cs",
-              "ToolTip": "C:\\Users\\wschen\\Source\\Repos\\db_test_try\\db_test_try\\TryTestContext.cs",
-              "RelativeToolTip": "db_test_try\\TryTestContext.cs",
+              "Title": "docker-compose.dcproj",
+              "DocumentMoniker": "C:\\Users\\wschen\\Source\\Repos\\db_test_try\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "C:\\Users\\wschen\\Source\\Repos\\db_test_try\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T02:40:45.824Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-27T08:32:10.658Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\wschen\\Source\\Repos\\db_test_try\\db_test_try\\Program.cs",
-              "RelativeDocumentMoniker": "db_test_try\\Program.cs",
-              "ToolTip": "C:\\Users\\wschen\\Source\\Repos\\db_test_try\\db_test_try\\Program.cs",
-              "RelativeToolTip": "db_test_try\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T02:33:59.986Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "ColumnsTest.cs",
               "DocumentMoniker": "C:\\Users\\wschen\\Source\\Repos\\db_test_try\\db_test_try\\Entity\\TableTest\\ColumnsTest.cs",
               "RelativeDocumentMoniker": "db_test_try\\Entity\\TableTest\\ColumnsTest.cs",
@@ -134,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\wschen\\Source\\Repos\\db_test_try\\db_test_try\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "db_test_try\\WeatherForecast.cs",
@@ -143,18 +124,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T02:09:27.725Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\wschen\\Source\\Repos\\db_test_try\\db_test_try\\appsettings.json",
-              "RelativeDocumentMoniker": "db_test_try\\appsettings.json",
-              "ToolTip": "C:\\Users\\wschen\\Source\\Repos\\db_test_try\\db_test_try\\appsettings.json",
-              "RelativeToolTip": "db_test_try\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-27T02:03:39.401Z"
             }
           ]
         }
