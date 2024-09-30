@@ -31,7 +31,7 @@ services:
       - ./nginx/ssl:/etc/nginx/ssl:ro
       - ./nginx/logs:/var/log/nginx
     depends_on:
-      - project
+      - db_test_try
     environment:
       TZ: "Asia/Taipei"
     networks:
