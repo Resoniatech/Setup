@@ -1,5 +1,5 @@
 services:
-  db_test_try:
+  project:
     user: root
     image: ${DOCKER_REGISTRY-}dbtesttry
     build:
