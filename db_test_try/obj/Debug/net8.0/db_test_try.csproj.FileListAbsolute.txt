@@ -102,3 +102,4 @@ C:\Users\wschen\Source\Repos\db_test_try\db_test_try\obj\Debug\net8.0\refint\db_
 C:\Users\wschen\Source\Repos\db_test_try\db_test_try\obj\Debug\net8.0\db_test_try.pdb
 C:\Users\wschen\Source\Repos\db_test_try\db_test_try\obj\Debug\net8.0\db_test_try.genruntimeconfig.cache
 C:\Users\wschen\Source\Repos\db_test_try\db_test_try\obj\Debug\net8.0\ref\db_test_try.dll
+C:\Users\wschen\Source\Repos\db_test_try\db_test_try\obj\Debug\net8.0\db_test_try.sourcelink.json
