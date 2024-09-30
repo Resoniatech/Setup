@@ -1,7 +1,7 @@
 {
   "profiles": {
     "http": {
-      "commandName": "db_test_try",
+      "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",
       "environmentVariables": {
@@ -11,7 +11,7 @@
       "applicationUrl": "http://localhost:5268"
     },
     "https": {
-      "commandName": "db_test_try",
+      "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",
       "environmentVariables": {
