@@ -12,7 +12,7 @@ services:
     volumes:
       - ./project/wwwroot:/app/wwwroot
       - ./project.pfx:/app/.aspnet/https/project.pfx:ro
-      - ./logs:/app/Logs 
+      - ./logs:/app/Logs  
     networks:
       - webnet
       
