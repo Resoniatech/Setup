@@ -73,8 +73,7 @@
               "RelativeToolTip": "db_test_try\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T01:38:53.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T01:38:53.251Z"
             },
             {
               "$type": "Document",
@@ -86,8 +85,7 @@
               "RelativeToolTip": "db_test_try\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-01T01:36:28.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T01:36:28.952Z"
             },
             {
               "$type": "Document",
@@ -99,8 +97,7 @@
               "RelativeToolTip": "db_test_try\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T06:36:56.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T06:36:56.051Z"
             },
             {
               "$type": "Document",
@@ -112,8 +109,7 @@
               "RelativeToolTip": "db_test_try\\Properties\\launchSettings.json",
               "ViewState": "AgIAACEAAAAAAAAAAAAAACcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-27T05:07:16.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T05:07:16.376Z"
             },
             {
               "$type": "Document",
@@ -123,7 +119,7 @@
               "RelativeDocumentMoniker": "docker-compose.yml",
               "ToolTip": "C:\\Users\\wschen\\Source\\Repos\\db_test_try\\docker-compose.yml",
               "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2024-09-27T05:23:12.212Z",
               "EditorCaption": ""
@@ -138,8 +134,7 @@
               "RelativeToolTip": "db_test_try\\Dockerfile",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-01T01:30:45.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T01:30:45.35Z"
             },
             {
               "$type": "Document",
@@ -151,8 +146,7 @@
               "RelativeToolTip": "db_test_try\\TryTestContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T02:40:45.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T02:40:45.824Z"
             },
             {
               "$type": "Document",
@@ -164,8 +158,7 @@
               "RelativeToolTip": "db_test_try\\Migrations\\20240927031548_1.Designer.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T00:45:53.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T00:45:53.46Z"
             },
             {
               "$type": "Document",
@@ -177,8 +170,7 @@
               "RelativeToolTip": "db_test_try\\Migrations\\20240927031450_Init.Designer.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T00:46:02.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T00:46:02.955Z"
             },
             {
               "$type": "Document",
@@ -190,8 +182,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
               "ViewState": "AgIAALwAAAAAAAAAAAArwMcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-09-27T09:10:07.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T09:10:07.25Z"
             },
             {
               "$type": "Document",
@@ -203,8 +194,7 @@
               "RelativeToolTip": "docker-compose.dcproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-27T08:32:10.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T08:32:10.658Z"
             },
             {
               "$type": "Document",
@@ -216,8 +206,7 @@
               "RelativeToolTip": "db_test_try\\Entity\\TableTest\\ColumnsTest.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T02:18:18.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T02:18:18.995Z"
             },
             {
               "$type": "Document",
@@ -229,8 +218,7 @@
               "RelativeToolTip": "db_test_try\\WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T02:09:27.725Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T02:09:27.725Z"
             }
           ]
         }
