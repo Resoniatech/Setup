@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{D0C0611C-86E5-4477-A842-9A92599E0F02}|db_test_try\\db_test_try.csproj|c:\\users\\wschen\\source\\repos\\db_test_try\\db_test_try\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{D0C0611C-86E5-4477-A842-9A92599E0F02}|db_test_try\\db_test_try.csproj|solutionrelative:db_test_try\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C0611C-86E5-4477-A842-9A92599E0F02}|db_test_try\\db_test_try.csproj|c:\\users\\wschen\\source\\repos\\db_test_try\\db_test_try\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C0611C-86E5-4477-A842-9A92599E0F02}|db_test_try\\db_test_try.csproj|solutionrelative:db_test_try\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\wschen\\Source\\Repos\\db_test_try\\db_test_try\\Program.cs",
+              "RelativeDocumentMoniker": "db_test_try\\Program.cs",
+              "ToolTip": "C:\\Users\\wschen\\Source\\Repos\\db_test_try\\db_test_try\\Program.cs",
+              "RelativeToolTip": "db_test_try\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T03:18:10.454Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,7 +45,7 @@
               "RelativeDocumentMoniker": "docker-compose.yml",
               "ToolTip": "C:\\Users\\wschen\\Source\\Repos\\db_test_try\\docker-compose.yml",
               "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2024-10-01T02:31:46.063Z",
               "EditorCaption": ""
@@ -41,7 +58,7 @@
               "RelativeDocumentMoniker": "db_test_try\\Dockerfile",
               "ToolTip": "C:\\Users\\wschen\\Source\\Repos\\db_test_try\\db_test_try\\Dockerfile",
               "RelativeToolTip": "db_test_try\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-10-01T01:30:45.35Z",
               "EditorCaption": ""
