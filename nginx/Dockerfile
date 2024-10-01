@@ -11,6 +11,6 @@ COPY ./nginx/nginx.conf /etc/nginx/nginx.conf
 COPY ./dist /usr/share/nginx/html
 
 # 暴露 443 端口供 HTTPS 使用
-EXPOSE 80 180 443
+EXPOSE 80 443
 # 啟動 Nginx
 CMD ["nginx", "-g", "daemon off;"]
