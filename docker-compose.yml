@@ -5,6 +5,10 @@ services:
     build:
       context: .
       dockerfile: db_test_try/Dockerfile
+    environment:
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/app/.aspnet/https/project.pfx
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=st923420
+      - TZ=Asia/Taipei
     networks:
       - webnet
       
