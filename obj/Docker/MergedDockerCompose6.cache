@@ -1,0 +1,54 @@
+name: dockercompose4655452415376110057
+services:
+  db_test_try:
+    build:
+      context: C:\Users\wschen\Source\Repos\db_test_try
+      dockerfile: db_test_try/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+    image: dbtesttry
+    networks:
+      webnet: null
+    ports:
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    user: root
+    volumes:
+      - type: bind
+        source: C:\Users\wschen\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\wschen\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+  nginx:
+    build:
+      context: C:\Users\wschen\Source\Repos\db_test_try
+      dockerfile: nginx/Dockerfile
+    networks:
+      webnet: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "8080"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\wschen\Source\Repos\db_test_try\dist
+        target: /usr/share/nginx/html
+        bind:
+          create_host_path: true
+networks:
+  webnet:
+    name: dockercompose4655452415376110057_webnet
