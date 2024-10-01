@@ -21,7 +21,7 @@ services:
       context: .
       dockerfile: nginx/Dockerfile
     ports:
-      - "6060:6060"   
+      - "80:80"   
     volumes:
       - ./dist:/usr/share/nginx/html
     networks:
