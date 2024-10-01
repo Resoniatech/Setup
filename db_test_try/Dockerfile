@@ -4,8 +4,8 @@
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 USER app
 WORKDIR /app
-EXPOSE 6000
-EXPOSE 6001
+EXPOSE 6060
+EXPOSE 6061
 
 
 # 此階段是用來組建服務專案
