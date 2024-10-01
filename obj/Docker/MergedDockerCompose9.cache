@@ -1,0 +1,73 @@
+name: dockercompose4655452415376110057
+services:
+  db_test_try:
+    build:
+      context: C:\Users\wschen\Source\Repos\db_test_try
+      dockerfile: db_test_try/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "6060"
+      ASPNETCORE_HTTPS_PORTS: "6061"
+      ASPNETCORE_Kestrel__Certificates__Default__Password: st923420
+      ASPNETCORE_Kestrel__Certificates__Default__Path: /app/.aspnet/https/project.pfx
+      TZ: Asia/Taipei
+    image: dbtesttry
+    networks:
+      webnet: null
+    ports:
+      - mode: ingress
+        target: 6060
+        protocol: tcp
+      - mode: ingress
+        target: 6061
+        protocol: tcp
+    user: root
+    volumes:
+      - type: bind
+        source: C:\Users\wschen\Source\Repos\db_test_try\project\wwwroot
+        target: /app/wwwroot
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\wschen\Source\Repos\db_test_try\project.pfx
+        target: /app/.aspnet/https/project.pfx
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\wschen\Source\Repos\db_test_try\logs
+        target: /app/Logs
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\wschen\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\wschen\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+  nginx:
+    build:
+      context: C:\Users\wschen\Source\Repos\db_test_try
+      dockerfile: nginx/Dockerfile
+    networks:
+      webnet: null
+    ports:
+      - mode: ingress
+        target: 180
+        published: "180"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\wschen\Source\Repos\db_test_try\dist
+        target: /usr/share/nginx/html
+        bind:
+          create_host_path: true
+networks:
+  webnet:
+    name: dockercompose4655452415376110057_webnet
