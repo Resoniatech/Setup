@@ -12,11 +12,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//builder.Services.AddDbContext<TryTestContext>(options =>
-//    options.UseMySql(
-//        builder.Configuration.GetConnectionString("TryTestDatabase"),
-//        new MariaDbServerVersion(new Version(10, 5, 8))
-//    ));
+builder.Services.AddDbContext<TryTestContext>(options =>
+    options.UseMySql(
+        builder.Configuration.GetConnectionString("TryTestDatabase"),
+        new MariaDbServerVersion(new Version(10, 5, 8))
+    ));
 
 
 var app = builder.Build();
