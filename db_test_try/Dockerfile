@@ -4,8 +4,8 @@
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 USER app
 WORKDIR /app
-EXPOSE 6000
-EXPOSE 6001
+EXPOSE 8080
+EXPOSE 8081
 
 
 # 此階段是用來組建服務專案
