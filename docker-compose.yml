@@ -7,8 +7,6 @@ services:
       dockerfile: db_test_try/Dockerfile
     environment:
       - ASPNETCORE_Kestrel__Certificates__Default__Path=/app/.aspnet/https/your_certificate.pfx
-      - ASPNETCORE_Kestrel__Certificates__Default__Password=
-      - TZ=Asia/Taipei
     volumes:
       - ./project/wwwroot:/app/wwwroot
       - ./project.pfx:/app/.aspnet/https/your_certificate.pfx:ro
