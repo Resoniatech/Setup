@@ -2,7 +2,7 @@
 FROM nginx:latest
 
 # 複製 SSL 證書並更改副檔名為 .pem
-# COPY ./nginx/ssl /etc/nginx/ssl
+COPY ./nginx/ssl /etc/nginx/ssl
 
 # 複製 Nginx 配置文件
 COPY ./nginx/nginx.conf /etc/nginx/nginx.conf
