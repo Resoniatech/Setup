@@ -8,8 +8,8 @@ services:
     environment:
       - ASPNETCORE_Kestrel__Certificates__Default__Path=/app/.aspnet/https/your_certificate.pfx
     volumes:
-      - ./project/wwwroot:/app/wwwroot
-      - ./project.pfx:/app/.aspnet/https/your_certificate.pfx:ro
+      - ./your_certificate/wwwroot:/app/wwwroot
+      - ./your_certificate.pfx:/app/.aspnet/https/your_certificate.pfx:ro
       - ./logs:/app/Logs  
     networks:
       - webnet
